@@ -14,7 +14,7 @@ public class Java2Month extends Room {
 	 */
 	public String[] getCurriculum() {
 
-		String[] array = {
+		String[] array ={
 				"ビジネスマナー"
 				,"Javaプログラミング"
 				,"オブジェクト指向プログラミング"
