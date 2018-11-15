@@ -22,10 +22,10 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 		int total=coffee*2+snack;
-		double to=total*1.08;
-		 double a=moneyInHand-to;
-		 int money=(int)a;
-		System.out.println(money);
+		double to=total*0.08;
+		 int t=(int)to;
+		 moneyInHand=moneyInHand-(t+total);
+		System.out.println(moneyInHand);
 
 	}
 }
